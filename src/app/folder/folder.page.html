@@ -8,14 +8,34 @@
 </ion-header>
 
 <ion-content [fullscreen]="true">
+
+
   <ion-header collapse="condense">
     <ion-toolbar>
       <ion-title size="large">{{ folder }}</ion-title>
     </ion-toolbar>
   </ion-header>
 
-  <div id="container">
-    <strong class="capitalize">{{ folder }}</strong>
-    <p>Explore <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+ 
+
+  <ion-content class="ion-padding">
+      <div id="container"></div>
+ 
+        <br/> 
+        <ion-button name="ion-button-ajax" color="success" >Success</ion-button>
+        <br/>
+        <strong class="capitalize">{{ folder }}</strong>
+        <p>Explore <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p> 
+      <br/>
+
+
+      <div id="pagina"></div>
+      <ion-text color="primary" name="codigojavascript">
+        <code name="codejavascript"></code>
+      </ion-text>
+      
+  </ion-content>
+
+
+
 </ion-content>
