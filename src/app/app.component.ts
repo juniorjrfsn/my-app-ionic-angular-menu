@@ -44,10 +44,10 @@ export class AppComponent implements OnInit {
       icon: 'warning'
     },
     {
-      title: 'Lista',
-      url: '/ajax/Lista',
-      icon: 'list'
-    }
+      title: 'Teste Nova Pasta',
+      url: '/folder2/Tones Dance I',
+      icon: 'reader'
+    }  
   ];
   public labels = ['Family', 'Friends', 'Notes', 'Work', 'Travel', 'Reminders'];
 

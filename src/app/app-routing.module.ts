@@ -10,11 +10,11 @@ const routes: Routes = [
   {
     path: 'folder/:id',
     loadChildren: () => import('./folder/folder.module').then( m => m.FolderPageModule)
-  },
+  }, 
   {
-    path: 'ajax/:id',
-    loadChildren: () => import('./ajax/ajax.module').then( m => m.AjaxPageModule)
-  }
+    path: 'folder2/:id',
+    loadChildren: () => import('./folder2/folder2.module').then( m => m.Folder2PageModule)
+  } 
 ];
 
 @NgModule({

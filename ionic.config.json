@@ -1,6 +1,8 @@
 {
   "name": "MyAppIonicAngularMenu",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular",
   "id": "401833d7"
 }
